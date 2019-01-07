@@ -1,5 +1,5 @@
-# GAN_breast_mammography_segmentation
-SegNet-cGAN and UNET-cGAN for Breast Mammography Segmentation
+# Pixel wise Breast Mammograhy Image Segmentation using Generative Adversarial Networks
+This repository contains code for SegNet-cGAN and UNET-cGAN for Breast Mammography Segmentation and also a discussion of the results we were able to achieve with our implementation.
 
 ## Contributors:
 Ankit Chadha (ankitrc@stanford.edu) and Rewa Sood (rrsood@stanford.edu)
