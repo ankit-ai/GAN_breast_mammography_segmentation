@@ -25,7 +25,7 @@ The above poster shows results for training the UNet without adversarial trainin
 [2] Presents recent work where cGAN implementations were used for mammography segmentation
 
 1. U-Net Architecture [4]
-![U-Net with cGAN](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/unet.png)
+![U-Net with cGAN](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/unet.jpg)
 2. SegNet Architecture [5]
 ![SegNet with cGAN](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/Screen%20Shot%202019-01-06%20at%2010.24.55%20PM.png)
 
