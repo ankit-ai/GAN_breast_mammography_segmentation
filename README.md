@@ -24,7 +24,10 @@ The above poster shows results for training the UNet without adversarial trainin
 ![GAN for breast mammography](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/Screen%20Shot%202019-01-06%20at%2010.10.34%20PM.png)
 [2] Presents recent work where cGAN implementations were used for mammography segmentation
 
-1. U-Net Architecture
+1. U-Net Architecture [4]
+![U-Net with cGAN](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/unet.png)
+2. SegNet Architecture [5]
+![SegNet with cGAN](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/Screen%20Shot%202019-01-06%20at%2010.24.55%20PM.png)
 
 ## Code Description and Configuration
 `You can run the model and the harness around it using:
@@ -62,3 +65,4 @@ TRAIN.hr_img_path is the groundtruth path and TRAIN.lr_img_path is the input ima
 [2] Conditional Generative Adversarial and Convolutional Networks for X-ray Breast Mass Segmentation and Shape Classification - https://arxiv.org/pdf/1805.10207.pdf
 [3] CBIS-DDSM Dataset https://wiki.cancerimagingarchive.net/display/Public/CBIS-DDSM
 [4] U-Net https://arxiv.org/pdf/1505.04597.pdf
+[5] SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation - https://arxiv.org/pdf/1511.00561.pdf
