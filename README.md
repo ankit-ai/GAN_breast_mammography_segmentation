@@ -54,7 +54,8 @@ config.TRAIN.hr_img_path = '../train_data_out_2'
 config.TRAIN.lr_img_path = '../train_data_in'
 
 config.VALID.hr_img_path = '../test_data_out_2/'
-config.VALID.lr_img_path = '../test_data_in/'```
+config.VALID.lr_img_path = '../test_data_in/'
+```
 
 TRAIN.hr_img_path is the groundtruth path and TRAIN.lr_img_path is the input image path. In our case these are 128x128 slices of input image and binary masks.
 
