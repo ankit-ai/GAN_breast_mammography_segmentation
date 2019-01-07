@@ -83,7 +83,11 @@ Post-processing techniques used: Otsu Thresholding, Opening and Major component 
 
 ## References
 [1] Tisse Augmentation - https://www.ncbi.nlm.nih.gov/pubmed/28094850
+
 [2] Conditional Generative Adversarial and Convolutional Networks for X-ray Breast Mass Segmentation and Shape Classification - https://arxiv.org/pdf/1805.10207.pdf
+
 [3] CBIS-DDSM Dataset https://wiki.cancerimagingarchive.net/display/Public/CBIS-DDSM
+
 [4] U-Net https://arxiv.org/pdf/1505.04597.pdf
+
 [5] SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation - https://arxiv.org/pdf/1511.00561.pdf
