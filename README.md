@@ -64,7 +64,19 @@ TRAIN.hr_img_path is the groundtruth path and TRAIN.lr_img_path is the input ima
 | SegNet-cGAN      | 89% | model_vae.py |
 | Unet-cGAN      | 86.3%      |   unet_tf.py |
 
+## Sample outputs
+-- Network output and Ground truth
+1.
+### Groundtruth:
+![sample1](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/Screen%20Shot%202019-01-06%20at%2010.38.16%20PM.png)
+### Network output:
+![sample1](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/Screen%20Shot%202019-01-06%20at%2010.38.23%20PM.png)
 
+2.
+### Groundtruth:
+![sample2](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/Screen%20Shot%202019-01-06%20at%2010.38.43%20PM.png)
+### Network output:
+![sample2](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/Screen%20Shot%202019-01-06%20at%2010.38.54%20PM.png)
 
 ## References
 [1] Tisse Augmentation - https://www.ncbi.nlm.nih.gov/pubmed/28094850
