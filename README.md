@@ -30,7 +30,7 @@ The above poster shows results for training the UNet without adversarial trainin
 ![SegNet with cGAN](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/Screen%20Shot%202019-01-06%20at%2010.24.55%20PM.png)
 
 ## Code Description and Configuration
-`You can run the model and the harness around it using:
+```You can run the model and the harness around it using:
 python main.py
 
 Run evaluate over your test set
@@ -54,7 +54,7 @@ config.TRAIN.hr_img_path = '../train_data_out_2'
 config.TRAIN.lr_img_path = '../train_data_in'
 
 config.VALID.hr_img_path = '../test_data_out_2/'
-config.VALID.lr_img_path = '../test_data_in/'`
+config.VALID.lr_img_path = '../test_data_in/'```
 
 TRAIN.hr_img_path is the groundtruth path and TRAIN.lr_img_path is the input image path. In our case these are 128x128 slices of input image and binary masks.
 
@@ -77,6 +77,8 @@ TRAIN.hr_img_path is the groundtruth path and TRAIN.lr_img_path is the input ima
 ![sample2](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/Screen%20Shot%202019-01-06%20at%2010.38.43%20PM.png)
 ### Network output:
 ![sample2](https://github.com/ankit-ai/GAN_breast_mammography_segmentation/blob/master/images/Screen%20Shot%202019-01-06%20at%2010.38.54%20PM.png)
+
+Post-processing techniques used: Otsu Thresholding, Opening and Major component selection to denoise the network output
 
 ## References
 [1] Tisse Augmentation - https://www.ncbi.nlm.nih.gov/pubmed/28094850
