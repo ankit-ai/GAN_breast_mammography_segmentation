@@ -33,9 +33,15 @@ The above poster shows results for training the UNet without adversarial trainin
 `You can run the model and the harness around it using:
 python main.py
 
+Run evaluate over your test set
+python main.py --mode=evaluate
+
 Configuration: config.py 
+
 config.TRAIN.batch_size = 8 #Training batch size
+
 config.TRAIN.lr_init = 1e-4 #Initial Learning Rate
+
 config.TRAIN.beta1 = 0.9 #Beta1 parameter for batch normalization
 
 config.TRAIN.n_epoch_init = 35 #Number of epochs to run the generator before adversarial training
